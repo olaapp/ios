@@ -1,0 +1,6 @@
+framework module Pods_AESApp {
+  umbrella header "Pods-AESApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

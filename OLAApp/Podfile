@@ -1,0 +1,82 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'AESApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AESApp
+
+  # Core PODS
+  pod 'Alamofire'
+  pod 'CodableAlamofire'
+  pod 'SDWebImage', '~> 4.0'
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Performance'
+  pod 'GoogleSignIn'
+  pod 'FBSDKCoreKit/Swift'
+  pod 'FBSDKLoginKit/Swift'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'OneSignal', '>= 2.11.2', '< 3.0'
+  
+
+  
+   # Utils
+  pod 'IQKeyboardManagerSwift', '6.5.0'
+  pod 'MaterialComponents/TextControls+OutlinedTextFields'
+  pod 'MaterialComponents/TextControls+FilledTextFields'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+  pod 'CHIPageControl/Jalapeno'
+  pod 'ImageSlideshow', '~> 1.8.3'
+  pod "ImageSlideshow/SDWebImage"
+  pod 'PopupDialog', '~> 1.1'
+  pod 'SwiftMessages'
+  pod "VisualEffectView"
+  pod 'ETBinding'
+  pod "TLPhotoPicker"
+  pod 'DropDown'
+  pod 'EasyTipView'
+  pod 'Charts'
+  pod 'NVActivityIndicatorView'
+  pod 'SwiftLocation', '~> 4.0'
+  pod 'KMPlaceholderTextView'
+  pod "SkeletonView"
+  pod "ViewAnimator"
+  pod 'FSPagerView'
+  pod 'DateTimePicker'
+  pod 'SwiftDate', '~> 6.1'
+  pod 'AFDateHelper', '~> 4.3.0'
+  pod 'BmoViewPager', '~> 5.0.0'
+  pod 'lottie-ios'
+  pod 'PDFReader'
+  pod 'ActiveLabel'
+  pod 'WXImageCompress', '~> 0.1.1'
+
+  target 'OneSignalNotificationServiceExtension' do
+    #only copy below line
+    pod 'OneSignal', '>= 2.11.2', '< 3.0'
+  end
+
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+          config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'No'
+            config.build_settings.delete('CODE_SIGNING_ALLOWED')
+            config.build_settings.delete('CODE_SIGNING_REQUIRED')
+        end
+    end
+    installer.pods_project.build_configurations.each do |config|
+      config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'No'
+        config.build_settings.delete('CODE_SIGNING_ALLOWED')
+        config.build_settings.delete('CODE_SIGNING_REQUIRED')
+    end
+  end
+
+end

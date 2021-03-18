@@ -1,0 +1,6 @@
+framework module Pods_AESApp_OneSignalNotificationServiceExtension {
+  umbrella header "Pods-AESApp-OneSignalNotificationServiceExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

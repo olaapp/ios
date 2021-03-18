@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "09ACD40F-85E5-4609-B5F2-4438F21AEF9D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CF40BCD-C550-4475-AD50-FF791ABCA912"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AESApp/Controllers/Offices/Reservations/NewReservationController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "405"
+            endingLineNumber = "405"
+            landmarkName = "setReservation(timeId:transactionId:placeId:date:nic:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E38AAA9-5B4A-4232-B726-1C34993172C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AESApp/Controllers/Appointments/AppointmentsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
+            landmarkName = "loadOffices(islocated:lat:lng:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E38AAA9-5B4A-4232-B726-1C34993172C7 - bfd4c8a3bddbc2ea"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AES__El__Salvador.OfficesResponse&gt;) -&gt; () in AES__El__Salvador.AppointmentsController.loadOffices(islocated: Swift.Bool, lat: Swift.Double, lng: Swift.Double) -&gt; ()"
+                  moduleName = "AES  El  Salvador"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Documents/iOS%20Projects/AESApp/AESApp/Controllers/Appointments/AppointmentsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "253"
+                  endingLineNumber = "253"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+               <Location
+                  uuid = "4E38AAA9-5B4A-4232-B726-1C34993172C7 - 8ac219f745b399e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AES__El__Salvador.DataOffices) -&gt; () in closure #1 (Swift.Optional&lt;AES__El__Salvador.OfficesResponse&gt;) -&gt; () in AES__El__Salvador.AppointmentsController.loadOffices(islocated: Swift.Bool, lat: Swift.Double, lng: Swift.Double) -&gt; ()"
+                  moduleName = "AES  El  Salvador"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Documents/iOS%20Projects/AESApp/AESApp/Controllers/Appointments/AppointmentsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "254"
+                  endingLineNumber = "254"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C05B1B10-6B5D-462A-97E1-CCED5452F9DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AESApp/Controllers/Scheduled Outages /Outages/ScheduledOutagesController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "loadScheduledOutagesByNic(nic:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "713E1B86-1832-48A2-A6B8-F390EB77CDFD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AESApp/Controllers/Scheduled Outages /Outages/ScheduledOutagesController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "loadScheduledOutagesByNic(nic:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "713E1B86-1832-48A2-A6B8-F390EB77CDFD - 198a9cf0e3b2c100"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AES__El__Salvador.ScheduleOutStageResponse&gt;) -&gt; () in AES__El__Salvador.ScheduledOutagesController.loadScheduledOutagesByNic(nic: Swift.String) -&gt; ()"
+                  moduleName = "AES  El  Salvador"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Documents/iOS%20Projects/AESApp/AESApp/Controllers/Scheduled%20Outages%20/Outages/ScheduledOutagesController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "713E1B86-1832-48A2-A6B8-F390EB77CDFD - 198a9cf0e3b2c100"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AES__El__Salvador.ScheduleOutStageResponse&gt;) -&gt; () in AES__El__Salvador.ScheduledOutagesController.loadScheduledOutagesByNic(nic: Swift.String) -&gt; ()"
+                  moduleName = "AES  El  Salvador"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Documents/iOS%20Projects/AESApp/AESApp/Controllers/Scheduled%20Outages%20/Outages/ScheduledOutagesController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73C9001A-B048-4779-B501-34B8E16DB85F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AESApp/Controllers/Scheduled Outages /Outages/ScheduledOutagesController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "loadScheduledOutagesByNic(nic:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
